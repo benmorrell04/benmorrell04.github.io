@@ -1,0 +1,269 @@
+header{
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+header img{
+    width: 400px;
+}
+
+#header{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+  font-family: "DM Serif Text", serif;
+  font-weight: 550;
+  font-style: normal;
+    margin: 5px;
+}
+
+h2{
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+  font-weight: 550;
+    text-align: center;
+    max-width: 600px;
+}
+
+
+h4{
+  font-family: "DM Serif Text", serif;
+    font-size: 12px;
+    text-align: left;
+  font-weight: 550;
+  font-style: normal;
+}
+
+
+nav{ 
+    background-color: black;
+    text-align: center;
+    max-width: 1200px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+}
+
+nav li {
+    margin-left: 50px;
+    margin-right: 50px;
+    display:inline-block;
+}
+
+nav a {
+    color: white;
+    font-family: "DM Serif Text", serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.content{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.maps{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.maps main{
+    width: 48%;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: .5%;
+    padding-right:1.75%;
+    margin-right: 1.75%;
+}
+
+.maps aside{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+}
+
+#routemap{
+    max-width: 450px;
+    width: 100%
+}
+
+#newmap{
+    max-width: 450px;
+    width: 100%
+}
+
+#maption{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-style: italic;
+    width: 100%;
+}
+
+.routelist{
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.routebutton {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    height: 40px;
+    width: 80px;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 5px 5px;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#newbutton {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5FB057;
+}
+
+#maxbutton {
+    background-color: #5FB057;
+}
+
+#flexbutton {
+    background-color: #20305D;
+}
+
+#goldbutton {
+    background-color: #EDBA44;
+}
+
+#hornbutton {
+    background-color: #E27347;
+}
+
+#foothillsbutton {
+    line-height: 20px;
+    background-color: #69775B;
+}
+
+#twobutton {
+    background-color: #D64B61;
+}
+
+#threebutton {
+    background-color: #394196;
+}
+
+#fivebutton {
+    background-color: #F6E14B;
+}
+
+#sixbutton {
+    background-color: #6F2D78;
+}
+
+#sevenbutton {
+    background-color: #54AEDC;
+}
+
+#eightbutton {
+    background-color: #677859;
+}
+
+#ninebutton {
+    background-color: #CB92A0;
+}
+
+#tenbutton {
+    background-color: #958980;
+}
+
+#elevenbutton {
+    background-color: #59B6B7;
+}
+
+#twelvebutton {
+    background-color: #D74A61;
+}
+
+#fourteenbutton {
+    background-color: #C7B949;
+}
+
+#sixteenbutton {
+    background-color: #377BB6;
+}
+
+#eighteenbutton {
+    background-color: #5C5BA5;
+}
+
+#nineteenbutton {
+    background-color: #A4C954;
+}
+
+#thirtyonebutton {
+    background-color: #5D2D26;
+}
+
+#thirtytwobutton {
+    background-color: #393E92;
+}
+
+#eightyonebutton {
+    background-color: #8D2A27;
+}
+
+#ninetytwobutton {
+    background-color: #516F8F;
+}
+
+footer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+footer h3{
+    color: white;
+    font-family: "DM Serif Text", serif;
+  font-weight: 550;
+  font-style: normal;
+    padding: 8px;
+    margin: 0px;
+}

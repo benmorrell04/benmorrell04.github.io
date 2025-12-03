@@ -1,0 +1,158 @@
+header{
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+header img{
+    width: 400px;
+}
+
+#header{
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+  font-family: "DM Serif Text", serif;
+  font-weight: 550;
+  font-style: normal;
+    margin: 5px;
+}
+
+h2{
+    font-family: "DM Serif Text", serif;
+    font-size: 20px;
+  font-weight: 550;
+    text-align: end;
+}
+
+h4{
+  font-family: "DM Serif Text", serif;
+    font-size: 12px;
+    text-align: end;
+  font-weight: 550;
+  font-style: normal;
+}
+
+p{
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: end;
+}
+
+nav{ 
+    background-color: black;
+    text-align: center;
+    max-width: 1200px;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+}
+
+nav li {
+    margin-left: 50px;
+    margin-right: 50px;
+    display:inline-block;
+}
+
+nav a {
+    color: white;
+    font-family: "DM Serif Text", serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+    
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+/* For screens up to 767px wide (e.g., mobile phones) */
+@media only screen and (max-width: 767px) {
+    .content{
+        max-width: 767px;
+        flex-direction: column;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    aside{
+        width: 100%;
+    }
+
+    main{
+        width:100%;
+    }
+}
+
+/* For screens 768px wide and above (e.g., tablets and desktops) */
+@media only screen and (min-width: 768px) {
+    .content{
+        max-width: 1200px;
+        flex-direction: row;
+    }
+    aside{
+        width: 38%;
+        padding-right: 4%;
+    }
+
+    main{
+        width:58%;
+    }
+    /* Other desktop-specific styles */
+}
+#routemap{
+    max-width: 550px;
+    width: 100%
+}
+
+#maption{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-style: italic;
+    width: 100%;
+}
+
+
+
+footer{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background-color: black;
+}
+
+footer h3{
+    color: white;
+    font-family: "DM Serif Text", serif;
+  font-weight: 550;
+  font-style: normal;
+    padding: 8px;
+    margin: 0px;
+}
